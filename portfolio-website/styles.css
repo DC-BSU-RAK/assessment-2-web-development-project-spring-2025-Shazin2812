@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #4a4a4a;
+    color: #f0eded;
+}
+
+header {
+    background: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+main {
+    padding: 50px;
+    text-align: center;
+}
+
+footer {
+    background: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.img{
+    display:flex;
+    flex-direction:column;
+    gap: 20px;
+}
+
+.img:hover{
+    transform: scale(1.1);
+}
+
+.contact-link a{
+    color: white;
+}
+
+.p-link{
+    color:#d6d4d4;
+}
+
+.about-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 27px;
+}
+
+.about-title{
+    font-size: 35px;
+}
+.projects-title{
+    font-size: 35px;
+}
+.index-size{
+    font-size: 35px;
+}
+.index-para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 27px;
+}
